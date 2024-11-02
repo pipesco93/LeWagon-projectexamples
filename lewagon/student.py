@@ -25,11 +25,11 @@ class Student:
 
 
 
-felipe = Student("Felipe", 31)
-print(f"Hi my name is {felipe.name}!")
-print(f"And I am {felipe.age}, and I am taking th Data Science BC in {felipe.school}")
+# felipe = Student("Felipe", 31)
+# print(f"Hi my name is {felipe.name}!")
+# print(f"And I am {felipe.age}, and I am taking th Data Science BC in {felipe.school}")
 
 
-sofia = Student.from_birth_year("Sofia", 1999)
-print(sofia.name)
-sofia.says("she likes medicine")
+# sofia = Student.from_birth_year("Sofia", 1999)
+# print(sofia.name)
+# sofia.says("she likes medicine")

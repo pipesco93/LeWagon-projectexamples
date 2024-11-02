@@ -1,4 +1,5 @@
-from student import Student
+from lewagon.student import Student
+
 
 # lewagon/data_student.py
 
@@ -12,9 +13,9 @@ class DataStudent(Student):
         self.batch = batch
 
 
-boris = DataStudent('boris', 30, 1767)
-boris.batch
+# boris = DataStudent('boris', 30, 1767)
+# boris.batch
 
-print(boris.name)
-print(boris.age)
-boris.says(f"he is new to batch: {boris.batch}")
+# print(boris.name)
+# print(boris.age)
+# boris.says(f"he is new to batch: {boris.batch}")
